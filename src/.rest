@@ -1,0 +1,19 @@
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name":"Go to pharmacy",
+    "description":"Buy food"
+}
+
+###
+GET http://localhost:3000/98bbe71a-ebc5-4fb3-8f84-f83174f5bea7
+
+###
+PUT http://localhost:3000/98bbe71a-ebc5-4fb3-8f84-f83174f5bea7
+Content-Type: application/json
+
+{
+    "name":"Go to Store"
+}

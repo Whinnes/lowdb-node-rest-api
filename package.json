@@ -1,0 +1,22 @@
+{
+  "name": "lowdb-node-rest-api",
+  "version": "1.0.0",
+  "description": "CRUD using lowdb and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --ignore db.json"
+  },
+  "keywords": [],
+  "author": "whinnes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
